@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload only the baldi-remaster folder contents
-          path: './baldi-remaster'
+          path: './jelly-drift'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
